@@ -1,0 +1,1 @@
+'From Squeak4.1 of 17 April 2010 [latest update: #9957] on 7 June 2011 at 1:31:30 am'!!Integer methodsFor: '*SimpleCrytpo-Base*' stamp: 'szktty 6/2/2011 19:01'!asByteArray	| value bytes |	bytes := OrderedCollection new.	value := self.	[ bytes add: (value bitAnd: 16rff).		value := value >> 8 ] doWhileTrue: [ value > 0 ].	^ bytes reversed asByteArray! !

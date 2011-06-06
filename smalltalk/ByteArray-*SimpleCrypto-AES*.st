@@ -1,0 +1,1 @@
+'From Squeak4.1 of 17 April 2010 [latest update: #9957] on 7 June 2011 at 1:31:50 am'!!ByteArray methodsFor: '*SimpleCrypto-AES*' stamp: 'szktty 6/2/2011 14:35'!asAESWords	^ self asSimpleWords: SimpleAESWord! !

@@ -1,0 +1,1 @@
+'From Squeak4.1 of 17 April 2010 [latest update: #9957] on 7 June 2011 at 1:31:46 am'!!ByteArray methodsFor: '*SimpleCrypto-SHA1*' stamp: 'szktty 6/2/2011 01:01'!SHA1Value	^ SimpleSHA1 hash: self! !
